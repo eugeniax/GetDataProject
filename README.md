@@ -1,7 +1,6 @@
 GetDataProject
 ==============
-
-Samsung accelerometer data project for Coursera Getting &amp; Cleaning Data course
+*Samsung accelerometer data project for Coursera Getting &amp; Cleaning Data course*
 
 **Preparation:**
 
@@ -44,13 +43,9 @@ First, read in activity labels from 'activity_labels.txt'. Then use `factor` to 
 First, use the names of features selected in Step 2 as a starting point. Then, perform the following operations on the names
 
 - Removing illegal variable symbols: (,),-
-
 - Expanding the abbreviations 'Mag' to 'Magnitude'
-
 - Some original feature names have 'BodyBody' E.g. 'fBodyBodyGyroJerkMag-mean()' is meant to be 'fBodyGyroJerkMag-mean()'. Therefore the extra 'Body' is removed
-
 - Replacing the prefix 't' and 'f' with 'time' and 'freq' respectively to make the variable names more descriptive
-
 
 Name the columns of dataframe 'df_mean.std'. First column is 'subject', second is 'activity', and the rest is obtained from the feature names after the manipulation mentioned above.
 
