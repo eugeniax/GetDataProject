@@ -1,4 +1,4 @@
-GetDataProject
+README for Getting & Cleaning Data Course Project
 ==============
 *Samsung accelerometer data project for Coursera Getting &amp; Cleaning Data course*
 
